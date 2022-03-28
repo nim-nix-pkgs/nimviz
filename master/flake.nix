@@ -11,7 +11,6 @@
   inputs.src-nimviz-master.ref   = "refs/heads/master";
   inputs.src-nimviz-master.owner = "Rekihyt";
   inputs.src-nimviz-master.repo  = "nimviz";
-  inputs.src-nimviz-master.dir   = "";
   inputs.src-nimviz-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
